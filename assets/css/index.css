@@ -28,6 +28,12 @@
 
 .navbar-collapse {
   order: 4;
+  background-color: var(--white-clr);
+}
+
+.nav__buttons {
+  display: flex;
+  flex-direction: column;
 }
 
 nav .form-switch {
@@ -45,7 +51,7 @@ nav .form-switch {
 /* FOOTER */
 
 footer {
-  position: absolute;
+  position: relative;
   width: 100vw;
   height: 553px;
   bottom: 0;
@@ -106,6 +112,7 @@ footer {
     order: 3 !important;
   }
   .navbar-collapse {
+    background-color: transparent;
     order: 2 !important;
   }
   nav .container {
@@ -131,6 +138,7 @@ footer {
   }
   .nav__buttons {
     margin-left: 4rem;
+    flex-direction: row;
   }
   .nav__buttons button {
     margin-left: 2rem;
