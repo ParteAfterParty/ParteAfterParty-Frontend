@@ -1,7 +1,7 @@
 # ParteAfterParty-Frontend
 
 
-New fromtend repository for static files of the ParteAfterParty Project. Please read all instructions carefully as pull requests will be carefully accessed before being merged
+New frontend repository for static files of the ParteAfterParty Project. Please read all instructions carefully as pull requests will be carefully accessed before being merged
 
 ### Folder Structure
 
