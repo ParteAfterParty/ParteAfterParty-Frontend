@@ -51,7 +51,8 @@ nav .form-switch {
 /* FOOTER */
 
 footer {
-  position: relative;
+  z-index: -1;
+  position: absolute;
   width: 100vw;
   height: 553px;
   bottom: 0;
