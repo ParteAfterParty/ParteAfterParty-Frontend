@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+:root {
+  /* COLORS */
+  --primary-clr: #ff9f0a;
+  --secondary-clr: #142032;
+  --gray-clr: #8692a6;
+  --white-clr: #ffffff;
+  /* FONT */
+  --regular-font: 400;
+  --medium-font: 500;
+  --semi-bold-font: 600;
+  --bold-font: 700;
+}
+
+.navbar-brand {
+  order: 2 !important;
+}
+
+.form-switch {
+  order: 3;
+}
+
+.navbar-toggler {
+  order: 1;
+}
+
+.navbar-collapse {
+  order: 4;
+}
+
+nav .form-switch {
+  cursor: pointer;
+  margin-left: 2rem;
+  border: 0;
+  background: transparent;
+}
+
+/* Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) {
+  .navbar-brand {
+    order: 1 !important;
+  }
+  .form-switch {
+    order: 3 !important;
+  }
+  .navbar-collapse {
+    order: 2 !important;
+  }
+  nav .container {
+    height: 115px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .ml-auto {
+    margin-left: auto !important;
+  }
+  .nav-item {
+    font-weight: var(--medium-font) !important;
+  }
+  .nav-link {
+    margin-left: 2rem !important;
+  }
+  nav .form-switch {
+    cursor: pointer;
+    margin-left: 2rem;
+    border: 0;
+    background: transparent;
+  }
+  .nav__buttons {
+    margin-left: 4rem;
+  }
+  .nav__buttons button {
+    margin-left: 2rem;
+  }
+  .nav__buttons .btn-primary {
+    background-color: var(--primary-clr);
+    border: none;
+    border-radius: 20px;
+    font-weight: var(--medium-font);
+    font-size: 16px;
+    line-height: 16px;
+    width: 241px;
+  }
+  .nav__buttons .btn-primary:hover {
+    color: var(--secondary-clr)
+  }
+  .nav__buttons .btn-light:hover {
+    border: 1px solid var(--secondary-clr)
+  }
+  .form-check-input:checked {
+    background-color: var(--primary-clr);
+    border-color: var(--secondary-clr);
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) {}
