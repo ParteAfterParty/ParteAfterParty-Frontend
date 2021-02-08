@@ -113,6 +113,48 @@ nav .form-switch {
 
 }  */
 
+.about__heading {
+  width: 323px;
+  margin: 0 auto;
+  line-height: 32px;
+  font-size: 21px;
+  font-weight: var(--semi-bold-font);
+}
+
+.about__paragraph {
+  width: 333px;
+  margin: 2rem auto;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: var(--regular-font);
+  text-transform: capitalize;
+}
+
+.about__image {
+  margin-bottom: 3rem;
+}
+
+.about__img {
+  background-color: rgba(255, 157, 10, 0.486);
+  background-size: 145px 145px;
+  border-radius: 50%;
+  padding: 2rem;
+  margin-bottom: 1rem;
+}
+
+.about .btn-lg {
+  border-radius: 20px;
+  background-color: var(--primary-clr);
+  padding: 15px 38px;
+  border: none;
+  margin-bottom: 3rem;
+}
+
+.plus-icon {
+  margin-left: 1rem;
+  margin-bottom: 0.2rem;
+}
+
 /* FOOTER */
 
 footer {
@@ -275,6 +317,70 @@ footer {
     position: absolute;
     top: 370px;
     left: 850px;
+  }
+  /* ABOUT SECTION */
+  .about {
+    position: relative;
+    height: 1100px;
+    /* padding: 0 0 50rem 0; */
+  }
+  .about__heading {
+    width: 789px;
+    margin: 0 auto;
+    font-size: 36px;
+    line-height: 48px;
+  }
+  .about__paragraph {
+    width: 688px;
+    margin: 2rem auto;
+    font-size: 18px;
+    line-height: 27px;
+  }
+  .about__image {
+    margin-bottom: 0;
+  }
+  .about__image-1 {
+    position: absolute;
+    left: 118px;
+    top: 432px;
+  }
+  .about__image-2 {
+    position: absolute;
+    left: 377px;
+    top: 569px;
+  }
+  .about__image-3 {
+    position: absolute;
+    left: 626px;
+    top: 459px;
+  }
+  .about__image-4 {
+    position: absolute;
+    left: 961px;
+    top: 299px;
+  }
+  .about__image-5 {
+    position: absolute;
+    left: 1146px;
+    top: 494px;
+  }
+  .about__image-6 {
+    position: absolute;
+    left: 874px;
+    top: 691px;
+  }
+  .about .btn-lg {
+    position: absolute;
+    left: 543px;
+    top: 969px;
+    border-radius: 20px;
+    background-color: var(--primary-clr);
+    padding: 15px 38px;
+    border: none;
+  }
+  .plus-icon {
+    margin-left: 1rem;
+    margin-bottom: 0.2rem;
   }
   /* FOOTER */
   footer {
