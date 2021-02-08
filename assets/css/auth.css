@@ -141,12 +141,22 @@
     border: 0px;
 }
 
+input[type="checkbox" i] {
+    background-color: initial;
+    width: 16.67px;
+    height: 16.67px;
+    cursor: default;
+    appearance: auto;
+    box-sizing: border-box;
+    margin: 3px 3px 3px 4px;
+    padding: initial;
+    border: initial;
+}
+
 
 /* Small devices (landscape phones, 576px and up) */
 
-@media (min-width: 576px) {
-    ...
-}
+@media (min-width: 576px) {}
 
 
 /* Medium devices (tablets, 768px and up) */
