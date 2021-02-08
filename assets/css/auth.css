@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+:root {
+    /* COLORS */
+    --primary-clr: #ff9f0a;
+    --secondary-clr: #142032;
+    --sign-blue: #142032, 100%;
+    --sign-blue: #142032, 100%;
+    --gray-clr: #8692a6;
+    --white-clr: #ffffff;
+    /* FONT */
+    --light-font: 300;
+    --regular-font: 400;
+    --medium-font: 500;
+    --semi-bold-font: 600;
+    --bold-font: 700;
+}
+
+.signin-bg-one {
+    /* padding: 3rem 0 3rem 0; */
+    height: 100vh;
+    background-color: var(--secondary-clr);
+    /* width: 100vw; */
+}
+
+.signin-info {
+    /* padding: 3rem 0 3rem 0; */
+    /* height: 100vh; */
+    /* width: 100vw; */
+    background: #F8F2E9;
+}
+
+.signin-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-clip: border-box;
+}
+
+.social-logins {
+    display: flex;
+}
+
+.social-list {
+    margin-right: 2.0rem;
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+    background: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.4rem;
+    box-sizing: border-box;
+    transition: all 1s ease;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.08);
+    border-radius: 6px;
+}
+
+.social-link {
+    transition: all 1s ease;
+}
+
+
+/***** Pulse animation *****/
+
+.social-list:hover {
+    animation: pulse 1s infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+        100% {
+            transform: scale(1);
+        }
+    }
+}
+
+.friends {
+    position: absolute;
+    left: 9%;
+    top: 20%;
+}
+
+.orange-circle {
+    width: 100%;
+    height: auto;
+}
+
+
+/* Sign Up Page Start */
+
+.form-control-custom {
+    min-height: calc(1.5em + 1rem + 15px);
+    padding: 1.375rem 1.875rem;
+    font-size: 0.875rem;
+    border-radius: .375rem;
+    border: 1px solid #8692A6;
+    box-sizing: border-box;
+}
+
+.form-control {
+    line-height: 1.0625rem !important;
+    background-color: #f8f2e9!important;
+}
+
+.form-control:focus {
+    background: #FFFFFF !important;
+    border: 1px solid #1565D8;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 10px 3px rgba(0, 0, 0, 0.11);
+    border-radius: 6px;
+}
+
+.input-group:not(.has-validation)>.dropdown-toggle:nth-last-child(n+3),
+.input-group:not(.has-validation)>:not(:last-child):not(.dropdown-toggle):not(.dropdown-menu) {
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.toggle-pass {
+    margin-left: -36px !important;
+    margin-top: 22px;
+    cursor: pointer;
+    z-index: 0;
+    margin-right: 15px;
+}
+
+.auth-btn {
+    color: #fff;
+    background-color: var(--primary-clr);
+    border-radius: 20px;
+    width: 100%;
+    height: 4rem;
+    border: 0px;
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 576px) {
+    ...
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) {
+    .friends {
+        position: absolute;
+        left: 4%;
+        top: 30%;
+        width: 51vw;
+    }
+    .orange-circle {
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+/* Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) {
+    .friends {
+        position: absolute;
+        left: 9%;
+        top: 23%;
+        width: 45vw;
+    }
+    .orange-circle {
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+/* X-Large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {
+    .friends {
+        position: absolute;
+        left: 9%;
+        top: 22%;
+        width: 45vw;
+    }
+    .orange-circle {
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+
+@media (min-width: 1400px) {
+    .friends {
+        position: absolute;
+        left: 10%;
+        top: 20%;
+        width: 45vw;
+    }
+    .orange-circle {
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+/* XXL-Large devices (larger desktops, 1920px and up) */
+
+@media (min-width: 1700px) {
+    .friends {
+        position: absolute;
+        left: 13%;
+        top: 20%;
+        width: 38vw;
+    }
+    .orange-circle {
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+/* XXL-Large devices (larger desktops, 1920px and up) */
+
+@media (min-width: 1921px) {
+    .friends {
+        position: absolute;
+        left: 19%;
+        top: 20%;
+        width: 27vw;
+    }
+    .orange-circle {
+        width: 100%;
+        height: auto;
+    }
+}
