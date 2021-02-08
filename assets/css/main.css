@@ -1,48 +1,103 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 :root {
-  /* COLORS */
-  --primary-clr: #ff9f0a;
-  --secondary-clr: #142032;
-  --gray-clr: #8692a6;
-  --white-clr: #ffffff;
-  /* FONT */
-  --regular-font: 400;
-  --medium-font: 500;
-  --semi-bold-font: 600;
-  --bold-font: 700;
+    /* COLORS */
+    --primary-clr: #ff9f0a;
+    --secondary-clr: #142032;
+    --gray-clr: #8692a6;
+    --white-clr: #ffffff;
+    /* FONT */
+    --light-font: 300;
+    --regular-font: 400;
+    --medium-font: 500;
+    --semi-bold-font: 600;
+    --bold-font: 700;
 }
 
-*, ::before, ::after {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+*,
+ ::before,
+ ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body {
-  font-family: "Poppins", sans-serif;
-  background-color: #F8F2E9;
+    font-family: "Poppins", sans-serif;
+    background-color: #F8F2E9;
 }
 
 a {
-  color: var(--secondary-clr) !important;
-  text-decoration: none;
+    color: var(--secondary-clr) !important;
+    text-decoration: none;
 }
 
 a:hover {
-  color: var(--primary-clr) !important;
+    color: var(--primary-clr) !important;
 }
 
 ul {
-  list-style: none;
+    list-style: none;
 }
 
 img {
-  max-width: 100%;
-  height: auto;
+    max-width: 100%;
+    height: auto;
 }
 
 p {
-  font-size: 18px;
-  line-height: 27px;
-  color: var(--gray-clr);
+    font-size: 18px;
+    line-height: 27px;
+    color: var(--gray-clr);
+}
+
+.font-weight-lt {
+    font-weight: var(--light-font)!important;
+}
+
+.font-weight-rg {
+    font-weight: var(--regular-font)!important;
+}
+
+.font-weight-md {
+    font-weight: var(--medium-font)!important;
+}
+
+.font-weight-sb {
+    font-weight: var(--semi-bold-font)!important;
+}
+
+.font-weight-bd {
+    font-weight: var(--bold-font)!important;
+}
+
+.typo-one {
+    font-size: 0.875rem;
+    line-height: 1rem;
+}
+
+.typo-two {
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+}
+
+.typo-three {
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+}
+
+.typo-four {
+    font-size: 1.875rem;
+    line-height: 2.8125rem;
+}
+
+.text-orange {
+    color: var(--primary-clr);
+}
+
+.text-gray {
+    color: var(--gray-clr);
+}
+
+.text-black {
+    color: #000000;
 }
