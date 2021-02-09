@@ -14,7 +14,7 @@ In the assets folder, we have an images folder where all images should be sent t
 1. Fork the repository
 2. Clone and then open it up on your code editor
 3. Open terminal and set upsream branch: ```git remote add upstream https://github.com/ParteAfterParty/ParteAfterParty-Frontend.git```
-4. Pull upstream ```git pull upstream develop```
+4. Pull upstream ```git pull upstream main```
 5. Create a new branch for the task your are doing eg: ```git checkout -b home-page```
 6. After making changes, do ```git add .```
 7. Commit your changes with a descriptive commit message```git commit -m "commit message"```
