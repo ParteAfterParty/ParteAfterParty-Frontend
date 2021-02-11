@@ -1,7 +1,7 @@
 # ParteAfterParty-Frontend
 
 ### Figma Link : https://www.figma.com/file/5AZbxifW9nXiY7Cqca8z4W/Parte-after-party?node-id=19%3A933
-### Live Link : https://afterparty.netlify.app/
+### Live Link : <a href= 'https://afterparty.netlify.app/' target='_blank'>Live Link</a>
 
 New frontend repository for static files of the ParteAfterParty Project. Please read all instructions carefully as pull requests will be carefully accessed before being merged
 
