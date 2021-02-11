@@ -343,10 +343,15 @@ nav .form-switch {
   background-color: var(--secondary-clr);
 }
 
+.elder__img .row {
+  display: flex;
+  justify-content: space-evenly;
+}
+
 .elder__emoji {
   width: 80px;
   height: 80px;
-  margin: 0 1rem 1rem 1rem;
+  /* margin: 1rem 1.5rem; */
 }
 
 .elders h6 {
