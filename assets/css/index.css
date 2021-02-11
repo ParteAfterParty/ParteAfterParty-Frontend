@@ -327,6 +327,68 @@ nav .form-switch {
   border-radius: 20px;
 }
 
+/* ELDER SECTION */
+
+.elders {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.elders {
+  /* max-width: 1440px; */
+  /* height: 418px; */
+  margin-top: 3rem;
+  padding: 3rem 0;
+  background-color: var(--secondary-clr);
+}
+
+.elder__emoji {
+  width: 80px;
+  height: 80px;
+  margin: 0 1rem 1rem 1rem;
+}
+
+.elders h6 {
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 11px;
+  text-align: center;
+  color: var(--white-clr);
+  margin-bottom: 1rem;
+}
+
+.elders h2 {
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 21px;
+  text-align: center;
+  color: var(--white-clr);
+  margin-bottom: 2rem;
+}
+
+.elders p {
+  font-weight: 300;
+  font-size: 11px;
+  line-height: 16px;
+  width: 322px;
+  text-align: center;
+  margin: 2rem auto;
+}
+
+.elders .btn-primary {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 10px 16px;
+  /* width: 150px;
+  height: 30px; */
+  background: var(--primary-clr);
+  border: none;
+  border-radius: 20px;
+}
+
 /* FOOTER */
 
 footer {
@@ -709,6 +771,54 @@ footer {
     width: 200px;
     height: 64px;
     background: #FCCB00;
+    border: none;
+    border-radius: 20px;
+  }
+  /* ELDER SECTION */
+  .elders {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+  .elders {
+    max-width: 1440px;
+    height: 900px;
+    background-color: var(--secondary-clr);
+  }
+  .elder__emoji {
+    width: 130px;
+    height: 130px;
+    margin: 0 1rem 7rem 2.5rem;
+  }
+  .elders h6 {
+    text-align: left;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+    color: var(--white-clr);
+    margin-bottom: 1rem;
+  }
+  .elders h2 {
+    text-align: left;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 48px;
+    color: var(--white-clr);
+    margin-bottom: 2rem;
+  }
+  .elders p {
+    text-align: left;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+    width: 409px;
+    margin: 0;
+  }
+  .elders .btn-primary {
+    margin: 2rem 0;
+    width: 199px;
+    height: 64px;
+    background: var(--primary-clr);
     border: none;
     border-radius: 20px;
   }
