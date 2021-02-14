@@ -154,6 +154,118 @@ input[type="checkbox" i] {
 }
 
 
+/* small device 375px */
+
+@media (min-width: 375px) {
+    .mobile-space {
+        margin-bottom: 10rem;
+    }
+    .mobile-top-space {
+        margin-top: 4.25rem;
+    }
+    .mobile-bg {
+        background-color: var(--secondary-clr);
+        position: relative;
+        /* width: 100vw; */
+        height: calc(100vh - 28rem);
+    }
+    .mobile-heads {
+        position: absolute;
+        width: 95px;
+        height: auto;
+    }
+    .mobile-heads .one {
+        left: -95px;
+        bottom: 189px;
+    }
+    .mobile-heads .two {
+        left: 5px;
+        bottom: 230px;
+    }
+    .mobile-heads .three {
+        left: 95px;
+        bottom: 189px;
+    }
+    .mobile-circle {
+        position: absolute;
+        width: 210px;
+        height: auto;
+        bottom: calc(100vh - 48.5rem);
+        /* left: calc(100vw - 20.5rem); */
+    }
+    .mobile-circle img {}
+    .typo-two {
+        font-size: 0.80rem;
+        line-height: 1.25rem;
+    }
+    .typo-three {
+        margin-top: 5.25rem;
+        font-size: 1.3rem;
+        line-height: 2.0rem;
+    }
+    .typo-four {
+        font-size: 1.3rem;
+        line-height: 2.0rem;
+    }
+}
+
+
+/* Extra Small devices (landscape phones, 300px and up) */
+
+@media (min-width: 425px) {
+    .mobile-space {
+        margin-bottom: 10rem;
+    }
+    .mobile-top-space {
+        margin-top: 4.25rem;
+    }
+    .mobile-bg {
+        background-color: var(--secondary-clr);
+        position: relative;
+        /* width: 100vw; */
+        height: calc(100vh - 28rem);
+    }
+    .mobile-heads {
+        position: absolute;
+        width: 118.36px;
+        height: auto;
+    }
+    .mobile-heads .one {
+        left: -121px;
+        bottom: 201px;
+    }
+    .mobile-heads .two {
+        left: 5px;
+        bottom: 252px;
+    }
+    .mobile-heads .three {
+        left: 121px;
+        bottom: 201px;
+    }
+    .mobile-circle {
+        position: absolute;
+        width: 250px;
+        height: auto;
+        bottom: calc(100vh - 52.7rem);
+        /* left: calc(100vw - 20.5rem); */
+    }
+    .mobile-circle img {}
+    .typo-two {
+        font-size: 0.875rem;
+        line-height: 1.5rem;
+    }
+    .typo-three {
+        margin-top: 6.25rem;
+        font-size: 1.5rem;
+        line-height: 2.25rem;
+    }
+    .typo-four {
+        font-size: 1.5rem;
+        line-height: 2.25rem;
+    }
+}
+
+
 /* Small devices (landscape phones, 576px and up) */
 
 @media (min-width: 576px) {}
@@ -162,6 +274,22 @@ input[type="checkbox" i] {
 /* Medium devices (tablets, 768px and up) */
 
 @media (min-width: 768px) {
+    .typo-one {
+        font-size: 0.875rem;
+        line-height: 1rem;
+    }
+    .typo-two {
+        font-size: 1.125rem;
+        line-height: 1.5rem;
+    }
+    .typo-three {
+        font-size: 1.5rem;
+        line-height: 2.25rem;
+    }
+    .typo-four {
+        font-size: 1.875rem;
+        line-height: 2.8125rem;
+    }
     .friends {
         position: absolute;
         left: 4%;
