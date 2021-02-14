@@ -154,11 +154,11 @@ input[type="checkbox" i] {
 }
 
 
-/* small device 375px */
+/* extra small device 320px */
 
-@media (min-width: 375px) {
+@media (min-width: 320px) {
     .mobile-space {
-        margin-bottom: 10rem;
+        margin-bottom: 7rem;
     }
     .mobile-top-space {
         margin-top: 4.25rem;
@@ -171,26 +171,86 @@ input[type="checkbox" i] {
     }
     .mobile-heads {
         position: absolute;
-        width: 95px;
+        width: 110px;
         height: auto;
+        bottom: -33px;
+        left: calc(100vw - 250px);
     }
     .mobile-heads .one {
-        left: -95px;
-        bottom: 189px;
+        left: -110px;
+        bottom: 201px;
     }
     .mobile-heads .two {
         left: 5px;
-        bottom: 230px;
+        bottom: 252px;
     }
     .mobile-heads .three {
-        left: 95px;
-        bottom: 189px;
+        left: 110px;
+        bottom: 201px;
     }
     .mobile-circle {
         position: absolute;
-        width: 210px;
+        width: 250px;
         height: auto;
-        bottom: calc(100vh - 48.5rem);
+        bottom: calc(100vh - 49.7rem);
+        /* left: calc(100vw - 20.5rem); */
+    }
+    .mobile-circle img {}
+    .typo-two {
+        font-size: 0.80rem;
+        line-height: 1.25rem;
+    }
+    .typo-three {
+        margin-top: 5.25rem;
+        font-size: 1.3rem;
+        line-height: 2.0rem;
+    }
+    .typo-four {
+        font-size: 1.3rem;
+        line-height: 2.0rem;
+    }
+}
+
+
+/* small device 375px */
+
+@media (min-width: 375px) {
+    .mobile-space {
+        margin-bottom: 7rem;
+    }
+    .mobile-top-space {
+        margin-top: 4.25rem;
+    }
+    .mobile-bg {
+        background-color: var(--secondary-clr);
+        position: relative;
+        /* width: 100vw; */
+        height: calc(100vh - 28rem);
+    }
+    .mobile-heads {
+        position: absolute;
+        width: 118.36px;
+        height: auto;
+        bottom: -33px;
+        left: calc(100vw - 310px);
+    }
+    .mobile-heads .one {
+        left: -121px;
+        bottom: 201px;
+    }
+    .mobile-heads .two {
+        left: 5px;
+        bottom: 252px;
+    }
+    .mobile-heads .three {
+        left: 121px;
+        bottom: 201px;
+    }
+    .mobile-circle {
+        position: absolute;
+        width: 250px;
+        height: auto;
+        bottom: calc(100vh - 49.7rem);
         /* left: calc(100vw - 20.5rem); */
     }
     .mobile-circle img {}
@@ -214,7 +274,7 @@ input[type="checkbox" i] {
 
 @media (min-width: 425px) {
     .mobile-space {
-        margin-bottom: 10rem;
+        margin-bottom: 7rem;
     }
     .mobile-top-space {
         margin-top: 4.25rem;
@@ -229,6 +289,8 @@ input[type="checkbox" i] {
         position: absolute;
         width: 118.36px;
         height: auto;
+        bottom: -33px;
+        left: calc(100vw - 359px);
     }
     .mobile-heads .one {
         left: -121px;
@@ -246,7 +308,7 @@ input[type="checkbox" i] {
         position: absolute;
         width: 250px;
         height: auto;
-        bottom: calc(100vh - 52.7rem);
+        bottom: calc(100vh - 49.7rem);
         /* left: calc(100vw - 20.5rem); */
     }
     .mobile-circle img {}
