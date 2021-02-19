@@ -102,7 +102,7 @@ nav .form-switch {
 .intro__paragraph {
   font-weight: var(--regular-font);
   margin: 2rem auto;
-  width: 222px;
+  width: 456px;
   font-size: 12px;
   line-height: 16px;
 }
@@ -794,6 +794,9 @@ footer {
     width: 130px;
     height: 130px;
     margin: 0 1rem 7rem 2.5rem;
+  }
+  .elder__join {
+    margin-top: 4rem;
   }
   .elders h6 {
     text-align: left;
