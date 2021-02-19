@@ -218,7 +218,6 @@ nav .form-switch {
 }
 
 .left-hand {
-  display: none;
   position: absolute;
   right: -5px;
   top: 230px;
@@ -669,7 +668,7 @@ footer {
   }
   .right-hand {
     position: absolute;
-    /* left: 1761.88px; */
+    left: 0px;
     top: 230px;
     bottom: 0%;
   }
@@ -684,14 +683,45 @@ footer {
   .info {
     max-width: 1440px;
     height: 1428px;
-    padding-top: 6rem;
+    /* padding-top: 16rem; */
+    position: relative;
+  }
+  .info .container {
+    margin-top: 4rem;
+    position: relative;
+  }
+  .info .row {
+    margin-top: 44rem;
+  }
+  .info__img1 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: -14.22%;
+  }
+  .info__img2 {
+    position: absolute;
+    right: 0;
+    top: 0%;
+  }
+  .info__img3 {
+    position: absolute;
+    left: 1.44%;
+    /* right: -11.44%; */
+    /* top: 0%; */
+    bottom: 0%;
+  }
+  .info__img4 {
+    position: absolute;
+    right: 0%;
+    bottom: 0%;
   }
   .info__heading {
     width: auto;
     font-weight: 600;
     font-size: 48px;
     line-height: 48px;
-    margin-bottom: 3rem;
+    margin-bottom: 9rem;
   }
   .info__card {
     margin: 1rem;
