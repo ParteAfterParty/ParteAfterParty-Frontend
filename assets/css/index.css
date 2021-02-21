@@ -102,7 +102,7 @@ nav .form-switch {
 .intro__paragraph {
   font-weight: var(--regular-font);
   margin: 2rem auto;
-  width: 456px;
+  width: 222px;
   font-size: 12px;
   line-height: 16px;
 }
@@ -160,23 +160,26 @@ nav .form-switch {
 .cta {
   position: relative;
   max-width: 1440px;
-  height: 600px;
+  height: 896px;
   background-color: var(--secondary-clr);
 }
 
 .cta__top-image {
-  /* position: absolute; */
-  /* top: 0; */
-  /* left: 250px; */
-  /* bottom: -99.97%; */
+  z-index: -2;
+  position: absolute;
+  Width: 92.33px;
+  Height: 147.54px;
 }
 
 .cta__emoji-1 {
-  background: url('../images/Musacae.svg');
-  background-repeat: no-repeat;
-  /* position: absolute;
-  top: 84px;
-  left: 180px; */
+  z-index: 10;
+  margin-top: 4rem;
+  left: 30%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  height: 166px;
+  width: 166px;
 }
 
 .cta h4 {
@@ -205,23 +208,34 @@ nav .form-switch {
 }
 
 .cta__bottom-image {
-  /* position: relative; */
+  position: absolute;
+  bottom: 0%;
+  width: 380px;
+  height: 131.23px;
+  left: 5px;
+  z-index: 3;
   /* left: 59px;
-  top: 200px; */
+  top: 200px;*/
+}
+
+.mobile_left-hand {
+  position: absolute;
+  left: 0%;
+  bottom: 0%;
+}
+
+.mobile_right-hand {
+  position: absolute;
+  right: 0%;
+  bottom: 0%;
 }
 
 .right-hand {
-  position: absolute;
-  top: 230px;
-  left: -150px;
-  bottom: 0%;
+  display: none;
 }
 
 .left-hand {
-  position: absolute;
-  right: -5px;
-  top: 230px;
-  bottom: 0%;
+  display: none;
 }
 
 /* INFO SECTION */
@@ -229,7 +243,8 @@ nav .form-switch {
 .info {
   padding: 3rem;
   /* height: 2201px; */
-  margin-bottom: 4rem
+  margin-bottom: 4rem;
+  position: relative;
 }
 
 .info__card {
@@ -248,6 +263,45 @@ nav .form-switch {
   line-height: 24px;
 }
 
+.info__img1 {
+  width: 283.45px;
+  height: 159.44px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: -14.22%;
+}
+
+.info__img2 {
+  display: none;
+}
+
+.info__img3 {
+  display: none;
+}
+
+.info__img4 {
+  display: none;
+}
+
+.info_moblie {
+  position: absolute;
+  right: 0%;
+  bottom: 0%;
+}
+
+.show-hide {
+  display: inline-block;
+}
+
+.more-info {
+  display: none;
+}
+
+.more-info.toggle {
+  display: block;
+}
+
 .card__heading {
   display: flex;
   justify-content: space-between;
@@ -264,7 +318,7 @@ nav .form-switch {
 }
 
 .card__paragraph {
-  margin: 2rem 0 0 3.5rem;
+  /* margin: 2rem 0 0 3.5rem; */
   text-align: left;
   color: var(--secondary-clr);
   font-weight: 300;
@@ -664,15 +718,25 @@ footer {
   .cta__bottom-image {
     position: absolute;
     left: 159px;
-    top: 644px;
+    top: 600px;
+    width: 1197.82px;
+    height: 300px;
+  }
+  .mobile_left-hand {
+    display: none;
+  }
+  .mobile_right-hand {
+    display: none;
   }
   .right-hand {
+    display: block;
     position: absolute;
     left: 0px;
     top: 230px;
     bottom: 0%;
   }
   .left-hand {
+    display: block;
     position: absolute;
     /* left: 0%; */
     right: 0px;
@@ -694,27 +758,34 @@ footer {
     margin-top: 44rem;
   }
   .info__img1 {
+    display: block;
     position: absolute;
     left: 0;
     top: 0;
     right: -14.22%;
+    width: auto;
+    height: auto;
   }
   .info__img2 {
+    display: block;
     position: absolute;
     right: 0;
     top: 0%;
   }
   .info__img3 {
+    display: block;
     position: absolute;
     left: 1.44%;
-    /* right: -11.44%; */
-    /* top: 0%; */
     bottom: 0%;
   }
   .info__img4 {
+    display: block;
     position: absolute;
     right: 0%;
     bottom: 0%;
+  }
+  .info_moblie {
+    display: none;
   }
   .info__heading {
     width: auto;
@@ -722,6 +793,12 @@ footer {
     font-size: 48px;
     line-height: 48px;
     margin-bottom: 9rem;
+  }
+  .show-hide {
+    display: none;
+  }
+  .more-info {
+    display: block;
   }
   .info__card {
     margin: 1rem;
