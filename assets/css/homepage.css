@@ -1,0 +1,240 @@
+:root {
+    /* COLORS */
+    --secondary-clr: #ff9f0a;
+    --primary-clr: #142032;
+    --gray-clr: #8692a6;
+    --white-clr: #ffffff;
+    /* FONT */
+    --light-font: 300;
+    --regular-font: 400;
+    --medium-font: 500;
+    --semi-bold-font: 600;
+    --bold-font: 700;
+}
+
+.highlight {
+    color: var(--secondary-clr)
+}
+
+header {
+    background-color: var(--primary-clr);
+}
+
+.sectionOne {
+    /* width: 1440px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 115px;
+    position: relative;
+}
+
+.sectionOne button {
+    background-color: var(--secondary-clr);
+    border: none;
+    border-radius: 20px;
+    font-weight: var(--medium-font);
+    font-size: 16px;
+    line-height: 16px;
+    padding: 20px 24px;
+}
+
+.memoji__1 {
+    position: absolute;
+    left: 1100px;
+    top: 160px;
+    height: 172px;
+}
+
+.memoji__2 {
+    position: absolute;
+    top: 160px;
+    left: 100px;
+}
+
+.memoji__3 {
+    position: absolute;
+    top: 550px;
+    left: 440px;
+}
+
+.memoji__4 {
+    position: absolute;
+    top: 550px;
+    left: 840px;
+}
+
+.sectionTwo {
+    background-color: var(--primary-clr);
+    /* width: 1440px; */
+    height: 745px;
+    padding: 8rem 2rem;
+}
+
+.sectionTwo h6 {
+    color: var(--white-clr);
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 24px;
+}
+
+.sectionTwo h1 {
+    color: var(--white-clr);
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 72px;
+}
+
+.sectionTwo p {
+    width: 456px;
+    font-size: 18px;
+    font-weight: var(--light-font);
+    line-height: 31px;
+    margin: 0 auto;
+    color: #FAFAFA;
+}
+
+/* SECTION THREE */
+
+.sectionThree {
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../images/Rectangle\ 11828.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.sectionThree h1 {
+    width: 655px;
+    margin: 2rem auto;
+    color: var(--white-clr);
+}
+
+form h6 {
+    color: var(--white-clr);
+}
+
+input {
+    display: block;
+    margin: 2rem auto;
+    height: 3rem;
+    border-radius: 20px;
+}
+
+input::placeholder {
+    padding-left: 2rem;
+    color: #000000;
+}
+
+.sectionThree button {
+    padding: 10px 18px;
+    background-color: var(--secondary-clr);
+    border-radius: 20px;
+    border: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+/* SECTION FOUR */
+
+.sectionFour {
+    position: relative;
+    padding: 3rem;
+    background-color: var(--primary-clr);
+}
+
+.sectionFour h1 {
+    width: 620px;
+    margin: 3rem 0;
+    color: var(--white-clr);
+}
+
+.sectionFour p {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+    width: 489px;
+    margin-bottom: 4rem;
+}
+
+.bernie {
+    position: absolute;
+    left: 910px;
+    top: 113px;
+}
+
+.join__card h1 {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 52px;
+    width: 603px;
+    margin: 0 auto;
+    color: var(--primary-clr);
+}
+
+.join__card {
+    padding: 2rem 0;
+    width: 1060px;
+    height: 452px;
+    border-radius: 100px;
+    background-color: var(--secondary-clr);
+}
+
+.join__card h4 {
+    width: 603px;
+    margin: 0 auto;
+    color: #000000;
+}
+
+.join__emojis {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    width: 800px;
+    height: 100px;
+    margin: 4rem auto;
+}
+
+.join__emojis img {
+    width: 120px;
+    height: 120px;
+}
+
+.join__card .btn-primary {
+    width: 200px;
+    height: 64px;
+    background: #14203255;
+    border: none;
+    border-radius: 20px;
+}
+
+/* SECTION FIVE */
+
+.sectionFive {
+    height: 430px;
+    background-color: var(--primary-clr);
+    display: flex;
+    align-items: center;
+}
+
+.sectionFive img {
+    margin-bottom: 3rem;
+}
+
+.sectionFive p {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+    margin-bottom: 3rem;
+}
+
+.social__links {
+    display: flex;
+    justify-content: space-evenly;
+    width: 200px;
+    margin: 0 auto;
+}
