@@ -16,6 +16,10 @@
     color: var(--secondary-clr)
 }
 
+section {
+    max-width: 1440px;
+}
+
 header {
     background-color: var(--primary-clr);
 }
@@ -286,8 +290,8 @@ input::placeholder {
 
 .sectionFive p {
     font-weight: 300;
-    font-size: 12px;
-    line-height: 18px;
+    font-size: 9px;
+    line-height: 1px;
     margin-bottom: 3rem;
 }
 
@@ -438,7 +442,7 @@ input::placeholder {
     }
     .join__card {
         padding: 2rem 0;
-        width: 1060px;
+        width: 900px;
         height: 452px;
         border-radius: 100px;
         background-color: var(--secondary-clr);
