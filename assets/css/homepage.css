@@ -180,7 +180,7 @@ input::placeholder {
     margin: 0 auto;
     width: 310px;
     height: 491px;
-    border-radius: 100px;
+    border-radius: 50px;
     background-color: var(--secondary-clr);
 }
 
