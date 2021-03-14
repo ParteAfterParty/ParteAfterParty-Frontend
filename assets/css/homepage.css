@@ -16,9 +16,8 @@
     color: var(--secondary-clr)
 }
 
-/* 
-section, header {
-    width: 100vw;
+/* section {
+    max-width: 1440px;
 } */
 
 header {
@@ -494,5 +493,73 @@ input::placeholder {
         justify-content: space-evenly;
         width: 200px;
         margin: 0 auto;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+
+@media (min-width: 1600px) {
+    .memoji__1, .memoji__2, .memoji__3, .memoji__4 {
+        height: auto;
+    }
+    .memoji__1 {
+        position: absolute;
+        left: 1200px;
+        top: 160px;
+        height: 172px;
+    }
+    .memoji__2 {
+        position: absolute;
+        top: 160px;
+        left: 300px;
+    }
+    .memoji__3 {
+        position: absolute;
+        top: 550px;
+        left: 540px;
+        /* border: 2px solid red; */
+    }
+    .memoji__4 {
+        position: absolute;
+        top: 550px;
+        left: 1040px;
+    }
+    .bernie {
+        position: absolute;
+        left: 1100px;
+        top: 123px;
+    }
+}
+
+@media (min-width: 1800px) {
+    .memoji__1, .memoji__2, .memoji__3, .memoji__4 {
+        height: auto;
+    }
+    .memoji__1 {
+        position: absolute;
+        left: 1500px;
+        top: 160px;
+        height: 172px;
+    }
+    .memoji__2 {
+        position: absolute;
+        top: 160px;
+        left: 300px;
+    }
+    .memoji__3 {
+        position: absolute;
+        top: 550px;
+        left: 540px;
+        /* border: 2px solid red; */
+    }
+    .memoji__4 {
+        position: absolute;
+        top: 550px;
+        left: 1340px;
+    }
+    .bernie {
+        position: absolute;
+        left: 1280px;
+        top: 123px;
     }
 }
