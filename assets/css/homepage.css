@@ -16,7 +16,7 @@
     color: var(--secondary-clr)
 }
 
-section {
+section, header {
     max-width: 1440px;
 }
 
