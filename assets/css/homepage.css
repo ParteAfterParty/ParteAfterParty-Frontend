@@ -16,9 +16,10 @@
     color: var(--secondary-clr)
 }
 
+/* 
 section, header {
     width: 100vw;
-}
+} */
 
 header {
     background-color: var(--primary-clr);
