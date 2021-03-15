@@ -189,10 +189,11 @@ input::placeholder {
 }
 
 .join__card {
-    padding: 3rem 0 1rem 0;
+    padding: 9rem 0 0rem 0;
     margin: 0 auto;
     /* width: 310px; */
-    height: 491px;
+    /* height: 491px; */
+    height: 591px;
     border-radius: 50px;
     background-color: var(--secondary-clr);
 }
@@ -229,10 +230,10 @@ input::placeholder {
 }
 
 .bernie {
-    display: none;
-    /* position: absolute;
-    left: 910px;
-    top: 113px; */
+    height: 300px;
+    position: relative;
+    left: 80px;
+    top: 120px;
 }
 
 /* SECTION FIVE */
@@ -283,28 +284,27 @@ input::placeholder {
         padding: 20px 24px;
     }
     .memoji__1, .memoji__2, .memoji__3, .memoji__4 {
-        height: auto;
+        height: 100px;
     }
     .memoji__1 {
         position: relative;
-        left: 700px;
-        top: -350px;
-        height: 172px;
+        left: 450px;
+        top: -360px;
     }
     .memoji__2 {
         position: relative;
         top: -350px;
-        left: -400px;
+        left: -250px;
     }
     .memoji__3 {
         position: relative;
-        top: -5px;
-        left: -440px;
+        top: 5px;
+        left: -240px;
     }
     .memoji__4 {
         position: relative;
         top: 5px;
-        left: 10px;
+        left: 30px;
     }
     .sectionTwo {
         background-color: var(--primary-clr);
@@ -388,9 +388,10 @@ input::placeholder {
         margin-bottom: 4rem;
     }
     .bernie {
+        height: auto;
         position: relative;
-        left: 900px;
-        top: -280px;
+        left: 230px;
+        top: -70px;
         z-index: 3;
     }
     .join__card h1 {
@@ -403,10 +404,11 @@ input::placeholder {
     }
     .join__card {
         position: relative;
-        top: -450px;
-        padding: 2rem 0;
+        top: -240px;
+        padding: 10rem 0;
+        /* padding: 2rem 0; */
         /* width: 900px; */
-        height: 452px;
+        /* height: 452px; */
         border-radius: 100px;
         background-color: var(--secondary-clr);
     }
@@ -416,19 +418,20 @@ input::placeholder {
         color: #000000;
     }
     .join__emojis {
-        display: flex;
+        display: block;
         justify-content: space-around;
         align-items: center;
         align-content: center;
-        width: 800px;
-        height: 100px;
-        margin: 4rem auto;
+        width: auto;
+        /* height: 100px; */
+        margin: 1rem auto;
     }
     .join__emojis img {
-        width: 120px;
+        width: 100px;
         height: 120px;
     }
     .join__card .btn-primary {
+        position: relative;
         width: 200px;
         height: 64px;
         background: #14203255;
@@ -461,43 +464,73 @@ input::placeholder {
 
 /* Large devices (desktops, 992px and up) */
 
-@media (min-width: 1500px) {
-    .bernie {
-        position: relative;
-        left: 900px;
-        top: -290px;
-    }
-}
-
-/* 
-@media (min-width: 1800px) {
+@media (min-width: 992px) {
     .memoji__1, .memoji__2, .memoji__3, .memoji__4 {
         height: auto;
     }
     .memoji__1 {
-        position: absolute;
-        left: 1500px;
-        top: 160px;
+        position: relative;
+        left: 700px;
+        top: -350px;
         height: 172px;
     }
     .memoji__2 {
-        position: absolute;
-        top: 160px;
-        left: 300px;
+        position: relative;
+        top: -350px;
+        left: -400px;
     }
     .memoji__3 {
-        position: absolute;
-        top: 550px;
-        left: 540px;
+        position: relative;
+        top: -5px;
+        left: -440px;
     }
     .memoji__4 {
-        position: absolute;
-        top: 550px;
-        left: 1340px;
+        position: relative;
+        top: 5px;
+        left: 10px;
     }
     .bernie {
-        position: absolute;
-        left: 1280px;
-        top: 123px;
+        height: auto;
+        position: relative;
+        left: 830px;
+        top: -70px;
+        z-index: 3;
     }
-} */
+    .join__card {
+        padding: 2rem 0;
+        width: auto;
+        height: 452px;
+    }
+    .join__emojis img {
+        margin-top: 3rem;
+        width: auto;
+        height: 120px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .bernie {
+        position: relative;
+        left: 700px;
+        top: -70px;
+    }
+    .memoji__1 {
+        position: relative;
+        left: 650px;
+        top: -350px;
+        height: 172px;
+    }
+    .memoji__2 {
+        position: relative;
+        top: -350px;
+        left: -300px;
+    }
+}
+
+@media (min-width: 1500px) {
+    .bernie {
+        position: relative;
+        left: 1000px;
+        top: -70px;
+    }
+}
