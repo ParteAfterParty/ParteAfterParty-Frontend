@@ -23,7 +23,8 @@
     <header class="">
         <div class="container sectionOne">
             <img src="./assets/images/logo-alt.svg" alt="nav-logo">
-            <button type="button" class="btn btn-primary btn-lg">Join us in building</button>
+            <button type="button" class="btn btn-primary btn-lg"><a href="#section3">Join us in
+                    building</a></button>
         </div>
     </header>
 
@@ -44,15 +45,16 @@
     </section>
 
     <!-- SECTION THREE-->
-    <section class="sectionThree">
+    <section class="sectionThree" id="section3">
         <div class="container text-center">
             <h6 class="highlight">The party is remote-first and digital</h6>
             <h1>Are you intrested in being a founding member?</h1>
             <form action="submit">
                 <h6>Register interest below</h6>
-                <input type="text" name="fullname" id="name" placeholder="Fullname">
-                <input type="email" name="email" id="email" placeholder="Email address">
-                <button type="button" class="btn btn-primary btn-lg">Join us in building</button>
+
+                <input type="text" name="fullname" placeholder="Fullname" id="validationDefault01" required>
+                <input type="email" name="email" id="email" placeholder="Email address" required>
+                <button type="submit" class="btn btn-primary btn-lg">Join us in building</button>
             </form>
         </div>
     </section>
