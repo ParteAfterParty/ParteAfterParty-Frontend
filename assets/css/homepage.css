@@ -64,14 +64,14 @@ header {
 
 .memoji__1 {
     position: relative;
-    left: 300px;
-    top: -160px;
+    left: 220px;
+    top: -250px;
 }
 
 .memoji__2 {
     position: relative;
-    top: -160px;
-    left: -180px;
+    top: -250px;
+    left: -100px;
 }
 
 .memoji__3 {
@@ -389,7 +389,7 @@ input::placeholder {
     }
     .bernie {
         position: relative;
-        left: 800px;
+        left: 900px;
         top: -280px;
         z-index: 3;
     }
@@ -405,7 +405,7 @@ input::placeholder {
         position: relative;
         top: -450px;
         padding: 2rem 0;
-        width: 900px;
+        /* width: 900px; */
         height: 452px;
         border-radius: 100px;
         background-color: var(--secondary-clr);
