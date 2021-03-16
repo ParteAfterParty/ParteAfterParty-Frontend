@@ -140,7 +140,7 @@ form h6 {
     color: var(--white-clr);
 }
 
-input {
+.form_input {
     display: block;
     margin: 2rem auto;
     height: 3rem;
@@ -165,6 +165,29 @@ input::placeholder {
 
 .sectionThree button:hover {
     background-color: #ff9d0a94;
+}
+
+.form-check-label {
+    margin-left: 2rem;
+}
+
+.form-check-input:focus {
+    background-color: var(--secondary-clr);
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(169, 253, 13, 0.25);
+}
+
+.form-check-input:checked {
+    background-color: var(--secondary-clr);
+}
+
+/* .form-check-input {
+    border: 1px solid red;
+    width: 11px !important;
+} */
+
+label {
+    color: var(--white-clr);
 }
 
 /* SECTION FOUR */
@@ -352,14 +375,14 @@ input::placeholder {
     form h6 {
         color: var(--white-clr);
     }
-    input {
+    .form_input {
         display: block;
         margin: 2rem auto;
         height: 3rem;
         border-radius: 20px;
     }
     input::placeholder {
-        padding-left: 2rem;
+        /* padding-left: 2rem; */
         color: #000000;
     }
     .sectionThree button {
